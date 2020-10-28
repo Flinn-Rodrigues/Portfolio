@@ -119,6 +119,8 @@ header ul li a:hover {
 .myWork img {
     height: auto;
     width: 25vw;
+    display: block;
+    margin: 0 auto 0 auto;
 }
 .myWork p{
     margin: 0;
