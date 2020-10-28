@@ -1,0 +1,208 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+/* universal css */
+html {
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    transition: all 0.5s ease 0s;
+    padding: 0;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 3vw;
+    text-align: center;
+    margin: 2% 0;
+}
+h2{
+    color: #000000;
+    font-size: 2vw;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0 20%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 2vw;
+    line-height: 200%;
+}
+h3{
+    color: grey;
+}
+hr{
+    width: 80%;
+    margin: 3% 10% 0 10%;
+}
+
+/* header */
+
+header{
+    margin: 10px 20% 10px 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    width: 40%;
+    height: auto;
+    cursor: pointer;
+}
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a {
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+    text-decoration: none;
+    padding:  1vw;
+}
+header ul li a:hover {
+    color: #0088a9;
+}
+
+/* roles */
+
+.roles p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 1vw;
+    line-height: 150%;
+    text-align: center
+}
+
+/* hero photo */
+
+.photo{
+    margin: 2% 20%;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+}
+
+/* about */
+
+.about {
+    width: 100%;
+    margin: 5% 0;
+}
+.about p i{
+    color: grey;
+    float: right;
+    margin-top: 3%;
+    font-size: 1.5vw;
+}
+
+/* my work */
+
+.myWork .work{
+    text-decoration: none;
+    margin: 0 20%;
+}
+
+.myWork img {
+    height: auto;
+    width: 25vw;
+}
+.myWork p{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 1vw;
+    line-height: 150%;
+    color: #000000;
+    text-decoration: none;
+}
+.viewall{
+    padding: 1% 0;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #7624BE;
+    color: white;
+    width: 120px;
+    display: none;
+}
+
+/* skills */
+
+.skills{
+    margin: 0 20%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.skills .a{
+    display: inline-block;
+    vertical-align: middle;
+}
+.skills p {
+    margin: 0%;
+    font-size: 1.5vw;
+}
+
+/* get in touch */
+
+.icons{
+    display: inline-block;
+    margin: 0 0 0 20%;;
+}
+.icons img{
+    width: 4%;
+    height: auto;
+    margin-right: 7%;
+}
+
+/* footer */
+
+.footer .upper {
+    color: grey;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row: 50px 50px;
+    align-items: center;
+}
+.footer .upper h1 {
+    font-family: 'Abel', sans-serif;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 50% 0 0;
+    font-size: 2.5vw;
+    grid-column: 1/2;
+}
+.footer .upper .rights{
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    font-size: 1.7vw;
+    grid-column: 2/3;
+    float: right;
+    margin: 0 0 0 20%;
+}
+.footer .lower {
+    color: grey;
+    margin: 0;
+}
+.footer .lower p{
+    font-family: 'Abel', sans-serif;
+    font-size: 1.3vw;
+    text-align: center;
+    padding: 0;
+}
